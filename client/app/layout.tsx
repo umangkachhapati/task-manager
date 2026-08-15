@@ -37,7 +37,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <GTMInitializer />
+        <GTMInitialiser />
         <UserProvider>
           <Toaster position="top-center" />
 
